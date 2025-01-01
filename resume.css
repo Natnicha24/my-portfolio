@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: lightcoral;
 }
 
 
@@ -22,7 +21,6 @@ h1 {
     width: 100%;
     margin: 20px;
     padding: 0 50px;
-    background-color: lightblue;
 }
 
 .resume-img>img {
