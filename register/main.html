@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>intern register</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 id="title"> HELLO,Candidate</h1>
+    <div id="block">
+
+        <h2>sign up</h2>
+        <div id="step">
+            <div id="circlecurrentlystep">
+                <h3 class="number">1</h3>
+            </div>
+            <div class="square"></div>
+            <div class="circlestep">
+                <h3 class="number">2</h3>
+            </div>
+            <div class="square"></div>
+            <div class="circlestep">
+                <h3 class="number">3</h3>
+            </div>
+        </div>
+
+        <div id="labelnamecon">
+            <div class="labelname">
+                <h3 class="label">Profile</h3>
+            </div>
+            <div class="labelname">
+                <h3 class="label">Experience</h3>
+            </div>
+            <div class="labelname">
+                <h3 class="label">Portfolio</h3>
+            </div>
+        </div>
+
+        <div id="form">
+            <form action="step2.html" id="Profile" name="Profile">
+                <h3 class="labelinput"> Full name: </h3>
+                <input type="text" name="fullname" class="input" required><br>
+                <h3 class="labelinput"> Email Address: </h3>
+                <input type="email" name="email" class="input" required><br>
+                <h3 class="labelinput"> Phone Number: </h3>
+                <input type="number" name="phone" class="input" maxlength="10" required><br>
+                <h3 class="labelinput"> Current Address: </h3>
+                <textarea name="address" class="textarea" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" name="next" class="button" value="Next">
+            </form>
+        </div>
+        
+    </div>
+</body>

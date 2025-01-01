@@ -1,0 +1,373 @@
+﻿/* color
+สีช็อกโกแลต (Chocolate Brown) - #D2691E
+สีคาราเมล (Caramel) - #C68E17
+สีเบจ (Beige) - #F5F5DC
+สีแดงเข้ม (Deep Red) - #8B0000
+สีทอง (Gold) - #FFD700 */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title_bigcon {
+    display: block;
+    background-color: #F5F5DC;
+}
+
+.title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#title_img {
+    border: 7px solid rgb(72, 28, 28);
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 0px;
+    object-fit: cover;
+    object-position: bottom;
+    box-sizing: border-box;
+    margin-right: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: #FFFFFF;
+    background-color: #C68E17;
+    margin-left: -5px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #A57F20;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #8C6D14;
+    transform: scale(0.98);
+}
+
+h1 {
+    text-align: left;
+    /* background-color:rgb(72, 28, 28); */
+    color: rgb(72, 28, 28);
+    width: 600px;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+h5 {
+    color: rgb(72, 28, 28);
+    width: 600px;
+    margin-top: 7px;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    width: 450px;
+    font-size: 0.75rem;
+}
+
+#ingredient_h2 {
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    color: rgb(72, 28, 28);
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+}
+
+#ingredient_bigcon {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredient_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+    width: 80%;
+}
+
+.ingredient_block {
+    border: 3px solid black;
+    border-radius: 20px;
+    justify-content: flex-start;
+    /* จัดตำแหน่งให้ติดขอบด้านบน */
+    background-color: white;
+    max-width: 200px;
+    height: 220px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 0;
+}
+
+div>h4 {
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    margin: 0;
+    /* ลบ margin เพื่อลดระยะห่างที่ไม่จำเป็น */
+    padding-top: 10px;
+    /* เพิ่ม padding ภายใน h3 เพื่อไม่ให้ข้อความติดขอบ */
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    /* ทำให้ padding รวมอยู่ในขนาดของ h3 */
+
+}
+
+div>h5 {
+    width: 95%;
+    text-align: center;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding-top: 0px;
+    /* เพิ่ม padding ภายใน h3 เพื่อไม่ให้ข้อความติดขอบ */
+    box-sizing: border-box;
+    /* ทำให้ padding รวมอยู่ในขนาดของ h3 */
+
+}
+
+.ingredient_img {
+    width: 100%;
+    height: 120px;
+    border-radius: 17px 17px 0 0;
+    /* ทำให้มุมบนของรูปภาพกลม */
+    object-fit: cover;
+    /* ตัดภาพให้พอดีกับ container */
+    object-position: top;
+    /* จัดตำแหน่งของภาพให้อยู่ตรงกลาง */
+    margin: 0px;
+}
+
+#instruction_bigcon {
+    display: flex;
+    width: 100%;
+    background-color: #F5F5DC;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#instruction_container {
+    display: block;
+    background-color: #F5F5DC;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    /* รวม padding เข้าไปใน width */
+}
+
+#instruction_h2 {
+    text-align: center;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 30px;
+}
+
+.instruction_block {
+    display: flex;
+    justify-content: left;
+    /*elementข้างใน*/
+    text-align: center;
+    align-items: center;
+    /*ไอเทมข้างกัน*/
+    background-color: white;
+    width: 100%;
+    height: 285px;
+    border-radius: 20px;
+    border-color: black 3px;
+    border-style: solid;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    /* รวม padding และ border เข้าไปใน width */
+}
+
+.instruction_img {
+    border-style: solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.instruction_h3L {
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+
+.instruction_h3R {
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.a {
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: blue;
+}
+
+#link_h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mali', 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .instruction_h3L {
+        font-size: 15px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .instruction_h3R {
+        font-size: 15px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        margin-right: 20px;
+        padding-left: 20px;
+        color: black;
+    }
+
+    .instruction_img {
+        border-style: solid;
+        border-radius: 20px;
+        width: 150px;
+        height: 200px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .title_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #title_img {
+        display: flex;
+        border: rgb(72, 28, 28) 7px;
+        border-style: solid;
+        border-radius: 50%;
+        width: 100%;
+        /* ทำให้รูปภาพย่อขยายตามขนาดของ parent container */
+        max-width: 200px;
+        /* กำหนดขนาดสูงสุด */
+        height: 200px;
+        margin-left: 0px;
+        object-fit: cover;
+        /* ตัดภาพให้พอดีกับ container */
+        object-position: bottom;
+        /* จัดตำแหน่งของภาพให้อยู่ตรงกลาง */
+        order: -1;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        flex-wrap: wrap;
+        /* background-color:rgb(72, 28, 28); */
+        color: rgb(72, 28, 28);
+        max-width: 600px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    span {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .instruction_h3L {
+        font-size: 13px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .instruction_h3R {
+        font-size: 13px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        margin-right: 20px;
+        padding-left: 25px;
+        color: black;
+    }
+
+    .instruction_img {
+        border-style: solid;
+        border-radius: 20px;
+        width: 150px;
+        height: 200px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    h1 {
+        text-align: center;
+        flex-wrap: wrap;
+        /* background-color:rgb(72, 28, 28); */
+        color: rgb(72, 28, 28);
+        width: 600px;
+        font-family: 'Mali', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+}

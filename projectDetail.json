@@ -1,0 +1,27 @@
+{
+  "project1": {
+    "projectname": "Clone Twitter",
+    "skill": ["html", "css"],
+    "link": "clone-twitter/main.html",
+    "image":"image/twitter-clone.jpg"
+  },
+  "project2": {
+    "projectname": "Clone Airbnb",
+    "skill": ["html", "css"],
+    "link": "airbnb-clone/main.html",
+    "image":"image/airbnb-clone.jpg"
+    
+  },
+  "project3": {
+    "projectname": "Recipe Website",
+    "skill": ["html", "css"],
+    "link": "recipe/recipe.html",
+    "image":"image/recipe.jpg"
+  },
+  "project4": {
+    "projectname": "Candidate Reister Form",
+    "skill": ["html", "css"],
+    "link": "register/main.html",
+    "image":"image/candidate-register.jpg"
+  }
+}
