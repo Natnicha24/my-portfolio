@@ -1,28 +1,17 @@
-.resumeContent {
+.resumeContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
-
-
-h1 {
+h1{
     font-size: 26px;
     margin: 60px 0;
     text-decoration: underline;
     color: #4A4947;
 }
-
-.resume-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 20px;
-    padding: 0 50px;
-}
-
-.resume-img>img {
-    width: 80%;
+.resumeContent>img{
+   width: 80%;
+   margin: 20px;
+   padding: 0 50px;
 }
