@@ -23,5 +23,11 @@
     "skill": ["html", "css"],
     "link": "register/main.html",
     "image":"image/candidate-register.jpg"
+  },
+  "project5": {
+    "projectname": "BMI Calculator",
+    "skill": ["html", "css","javascript"],
+    "link": "bmi/main.html",
+    "image":"image/bmi-calculator.jpg"
   }
 }

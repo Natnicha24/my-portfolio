@@ -325,12 +325,13 @@ body {
     /*ul*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 90%;
     gap: 40px 52px;
     padding-left: 0;
     list-style-type: none;
     margin-top: 72px;
+
 }
 
 .project-list li {
@@ -384,6 +385,7 @@ body {
     text-overflow: ellipsis;
 }
 .seemore {
+    margin-top: 50px;
     text-align: center;
     width: 100%;
 }
@@ -396,13 +398,6 @@ body {
     color: rgba(0, 0, 0, 0.528);
 }
 
-@media (max-width:1784px) {
-    .project-list {
-        /*ul*/
-        justify-content: space-around;
-    }
-
-}
 
 .contact-container {
     text-align: center;
