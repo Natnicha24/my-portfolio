@@ -3,7 +3,7 @@ html {
     font-family: "Mali", sans-serif;
     padding: 0;
     margin: 0;
-    min-width: 360px;
+    /* min-width: 360px; */
 }
 
 .header-container {
