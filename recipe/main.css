@@ -147,8 +147,9 @@ html {
     justify-content: flex-start;
     /* จัดตำแหน่งให้ติดขอบด้านบน */
     background-color: white;
+    width: fit-content;
     max-width: 200px;
-    height: 220px;
+    min-height: 220px;
     padding: 0px;
     box-sizing: border-box;
     margin-top: 20px;
