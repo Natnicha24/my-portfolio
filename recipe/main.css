@@ -104,8 +104,8 @@ html {
         align-items: center;
     }
 
-    h5,
-    h1 {
+    .header-text h5,
+    .header-text h1 {
         text-align: center;
     }
 }
@@ -248,13 +248,15 @@ div>h5 {
 }
 
 @media only screen and (max-width:792px) {
-    .instruction_block{
+    .instruction_block {
         flex-wrap: wrap;
     }
-    .instruction_block:nth-child(2n+3)>img{
+
+    .instruction_block:nth-child(2n+3)>img {
         order: -1;
     }
-    .instruction_block:nth-child(2n+4)>img{
+
+    .instruction_block:nth-child(2n+4)>img {
         order: -1;
     }
 }
