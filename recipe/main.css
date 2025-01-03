@@ -1,45 +1,58 @@
-﻿/* color
-สีช็อกโกแลต (Chocolate Brown) - #D2691E
-สีคาราเมล (Caramel) - #C68E17
-สีเบจ (Beige) - #F5F5DC
-สีแดงเข้ม (Deep Red) - #8B0000
-สีทอง (Gold) - #FFD700 */
-
-html,
-body {
-    margin: 0;
+﻿body,
+html {
+    font-family: "Mali", sans-serif;
     padding: 0;
+    margin: 0;
+    min-width: 360px;
 }
 
-.title_bigcon {
-    display: block;
-    background-color: #F5F5DC;
-}
-
-.title_container {
+.header-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
+    background-color: #F5F5DC;
+    box-sizing: border-box;
 }
 
-#title_img {
-    border: 7px solid rgb(72, 28, 28);
-    border-radius: 50%;
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 0px;
-    object-fit: cover;
-    object-position: bottom;
-    box-sizing: border-box;
-    margin-right: 25px;
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
 }
+
+.text-control {
+    text-align: left;
+}
+
+.header-text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: fit-content;
+}
+
+.header-text h1 {
+    margin: 0;
+}
+
+.header-text h1,
+.header-text h5,
+.header-text .button {
+    display: inline-block;
+    width: fit-content;
+}
+
 
 .button {
     display: inline-block;
+    width: fit-content;
     padding: 15px 30px;
     font-size: 15px;
     font-family: 'Mali', 'Times New Roman', Times, serif;
@@ -64,24 +77,37 @@ body {
     transform: scale(0.98);
 }
 
-h1 {
-    text-align: left;
-    /* background-color:rgb(72, 28, 28); */
-    color: rgb(72, 28, 28);
-    width: 600px;
-    font-family: 'Mali', 'Times New Roman', Times, serif;
-    padding: 30px;
-    margin-right: 10px;
-    border-radius: 50px;
+.header-image {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid rgb(72, 28, 28);
+    object-fit: cover;
+    object-position: bottom;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-h5 {
-    color: rgb(72, 28, 28);
-    width: 600px;
-    margin-top: 7px;
-    font-family: 'Mali', 'Times New Roman', Times, serif;
-    width: 450px;
-    font-size: 0.75rem;
+.header-image>img {
+    width: 100%;
+}
+
+@media only screen and (max-width:1015px) {
+    .header-image {
+        order: -1;
+        margin-bottom: 40px;
+    }
+
+    .header-text {
+        justify-content: center;
+        align-items: center;
+    }
+
+    h5,
+    h1 {
+        text-align: center;
+    }
 }
 
 #ingredient_h2 {
@@ -201,14 +227,14 @@ div>h5 {
 
 .instruction_block {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    /* flex-wrap: wrap; */
     /*elementข้างใน*/
     text-align: center;
     align-items: center;
     /*ไอเทมข้างกัน*/
     background-color: white;
     width: 100%;
-    height: 285px;
     border-radius: 20px;
     border-color: black 3px;
     border-style: solid;
@@ -219,6 +245,18 @@ div>h5 {
     margin-bottom: 20px;
     box-sizing: border-box;
     /* รวม padding และ border เข้าไปใน width */
+}
+
+@media only screen and (max-width:792px) {
+    .instruction_block{
+        flex-wrap: wrap;
+    }
+    .instruction_block:nth-child(2n+3)>img{
+        order: -1;
+    }
+    .instruction_block:nth-child(2n+4)>img{
+        order: -1;
+    }
 }
 
 .instruction_img {
@@ -241,10 +279,7 @@ div>h5 {
     margin-right: 20px;
 }
 
-body {
-    background-color: white;
-    margin: 0px;
-}
+
 
 .a {
     font-family: 'Mali', 'Times New Roman', Times, serif;
@@ -259,115 +294,5 @@ body {
     font-family: 'Mali', 'Times New Roman', Times, serif;
     width: 100%;
     margin-top: 40px;
-
-}
-
-@media only screen and (max-width: 767px) {
-    .instruction_h3L {
-        font-size: 15px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        margin-right: 20px;
-        color: black;
-    }
-
-    .instruction_h3R {
-        font-size: 15px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        margin-right: 20px;
-        padding-left: 20px;
-        color: black;
-    }
-
-    .instruction_img {
-        border-style: solid;
-        border-radius: 20px;
-        width: 150px;
-        height: 200px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .title_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #title_img {
-        display: flex;
-        border: rgb(72, 28, 28) 7px;
-        border-style: solid;
-        border-radius: 50%;
-        width: 100%;
-        /* ทำให้รูปภาพย่อขยายตามขนาดของ parent container */
-        max-width: 200px;
-        /* กำหนดขนาดสูงสุด */
-        height: 200px;
-        margin-left: 0px;
-        object-fit: cover;
-        /* ตัดภาพให้พอดีกับ container */
-        object-position: bottom;
-        /* จัดตำแหน่งของภาพให้อยู่ตรงกลาง */
-        order: -1;
-        box-sizing: border-box;
-    }
-
-    h1 {
-        text-align: center;
-        flex-wrap: wrap;
-        /* background-color:rgb(72, 28, 28); */
-        color: rgb(72, 28, 28);
-        max-width: 600px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        padding: 30px;
-        border-radius: 50px;
-    }
-
-    span {
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .instruction_h3L {
-        font-size: 13px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        margin-right: 20px;
-        color: black;
-    }
-
-    .instruction_h3R {
-        font-size: 13px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        margin-right: 20px;
-        padding-left: 25px;
-        color: black;
-    }
-
-    .instruction_img {
-        border-style: solid;
-        border-radius: 20px;
-        width: 150px;
-        height: 200px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    h1 {
-        text-align: center;
-        flex-wrap: wrap;
-        /* background-color:rgb(72, 28, 28); */
-        color: rgb(72, 28, 28);
-        width: 600px;
-        font-family: 'Mali', 'Times New Roman', Times, serif;
-        font-size: 25px;
-        padding: 30px;
-        border-radius: 50px;
-    }
 
 }
