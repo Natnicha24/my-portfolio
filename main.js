@@ -5,7 +5,7 @@ window.onload = async function () {
     if (hash) {
         const target = document.querySelector(hash);
         if (target) {
-            console.log('have',target)
+            console.log('have', target)
             target.scrollIntoView({ behavior: 'smooth' });
         }
     }
@@ -46,13 +46,13 @@ contactBar.addEventListener('click', () => {
 async function fetchProject() {
     const res = await fetch('projectDetail.json')
     const data = await res.json()
-    console.log(data)
+    // console.log(data)
     ShowData(data)
 }
 
 function ShowData(data) {
     for (const e in data) {
-
+        if(data[e].pin=="true"){
         const li = document.createElement('li')
         projectList.append(li)
         const a = document.createElement('a')
@@ -85,7 +85,7 @@ function ShowData(data) {
             divSkill.append(skill)
         }
 
-
+    }
 
     }
     const seeMoreDiv = document.createElement('div')

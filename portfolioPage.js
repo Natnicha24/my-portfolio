@@ -1,4 +1,4 @@
-window.onload = fetchProject()
+window.onload = fetchProject()//หน้า portfolio โชว์โปรเจคทั้งหมด
 
 
 const projectList = document.querySelector('.project-list-portfolio')
@@ -17,6 +17,7 @@ async function fetchProject() {
 }
 
 function ShowData(data) {
+    
     for (const e in data) {
 
         const li = document.createElement('li')
@@ -43,7 +44,7 @@ function ShowData(data) {
         divSkill.classList.add('skill-text')
         divText.append(divSkill)
 
-        for (let i = 0; i < data[e].skill.length; i++) {
+        for (let i = 0; i < data[e].skill.length; i++) { //สร้างskill
 
             const skill = document.createElement('span')
             skill.innerText = data[e].skill[i]

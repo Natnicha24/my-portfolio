@@ -3,31 +3,35 @@
     "projectname": "Clone Twitter",
     "skill": ["html", "css"],
     "link": "clone-twitter/main.html",
-    "image":"image/twitter-clone.jpg"
+    "image":"image/twitter-clone.jpg",
+    "pin":"true"
   },
   "project2": {
     "projectname": "Clone Airbnb",
     "skill": ["html", "css"],
     "link": "airbnb-clone/main.html",
-    "image":"image/airbnb-clone.jpg"
-    
+    "image":"image/airbnb-clone.jpg",
+    "pin":"true"
   },
   "project3": {
     "projectname": "Recipe Website",
     "skill": ["html", "css"],
     "link": "recipe/recipe.html",
-    "image":"image/recipe.jpg"
+    "image":"image/recipe.jpg",
+    "pin":"true"
   },
   "project4": {
     "projectname": "Candidate Reister Form",
     "skill": ["html", "css"],
     "link": "register/main.html",
-    "image":"image/candidate-register.jpg"
+    "image":"image/candidate-register.jpg",
+    "pin":"true"
   },
   "project5": {
     "projectname": "BMI Calculator",
     "skill": ["html", "css","javascript"],
     "link": "bmi/main.html",
-    "image":"image/bmi-calculator.jpg"
+    "image":"image/bmi-calculator.jpg",
+    "pin":"true"
   }
 }
