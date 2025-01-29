@@ -464,6 +464,24 @@ body {
     color: #837e31c4;
     margin-right: 5px;
 }
+.react{
+    background-color: #0a6ad141;
+    width: fit-content;
+    padding: 2px 9px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #0a6ad1;
+    margin-right: 5px;
+}
+.typescript{
+    background-color: #6aa8eb7d;
+    width: fit-content;
+    padding: 2px 9px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #3178c6;
+    margin-right: 5px;
+}
 
 .skill-text{
     margin-top:2px;
