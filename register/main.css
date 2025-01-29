@@ -270,3 +270,16 @@ h3 {
     }
 
 }
+
+@media (max-width:419.200px) {
+    #title{
+        font-size: 30px;
+    }
+    #labelnamecon{
+        display: none;
+    }
+    #block{
+        padding: 20px;
+        margin: auto
+    }
+}
