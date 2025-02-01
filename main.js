@@ -27,7 +27,7 @@ scrollButton.addEventListener('click', () => {
 })
 
 emailButton.addEventListener('click', () => {
-    navigator.clipboard.writeText('natchaya110982@gmail.com')
+    navigator.clipboard.writeText('natnicha.gaewnaihin@gmail.com')
 
 })
 
