@@ -33,6 +33,13 @@
     "link": "bmi/main.html",
     "image":"image/bmi-calculator.jpg",
     "pin":"true"
+  },
+  "project6": {
+    "projectname": "Kpop Information",
+    "skill": ["react", "typescript"],
+    "link": "https://kpop-information.vercel.app/",
+    "image":"image/kpop-information.jpg",
+    "pin":"true"
   }
  
 
