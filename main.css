@@ -483,6 +483,16 @@ body {
     margin-right: 5px;
 }
 
+.tailwind{
+    background-color: 	#a5f3fc;
+    width: fit-content;
+    padding: 2px 9px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #06b6d4;
+    margin-right: 5px;
+}
+
 .skill-text{
     margin-top:2px;
 }

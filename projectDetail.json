@@ -40,7 +40,15 @@
     "link": "https://kpop-information.vercel.app/",
     "image":"image/kpop-information.jpg",
     "pin":"true"
+  },
+  "project7": {
+    "projectname": "Landing Page",
+    "skill": ["react", "tailwind"],
+    "link": "https://becool-landing-page.netlify.app/",
+    "image":"image/becool-landingpage.png",
+    "pin":"true"
   }
+
  
 
 }
