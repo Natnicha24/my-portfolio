@@ -4,7 +4,7 @@
     "skill": ["html", "css"],
     "link": "clone-twitter/main.html",
     "image":"image/twitter-clone.jpg",
-    "pin":"false"
+    "pin":"true"
   },
   "project2": {
     "projectname": "Clone Airbnb",
@@ -21,11 +21,11 @@
     "pin":"true"
   },
   "project4": {
-    "projectname": "Candidate Reister Form",
+    "projectname": "Candidate Register Form",
     "skill": ["html", "css"],
     "link": "register/main.html",
     "image":"image/candidate-register.jpg",
-    "pin":"true"
+    "pin":"false"
   },
   "project5": {
     "projectname": "BMI Calculator",
