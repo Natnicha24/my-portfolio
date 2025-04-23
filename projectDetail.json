@@ -4,7 +4,7 @@
     "skill": ["html", "css"],
     "link": "clone-twitter/main.html",
     "image":"image/twitter-clone.jpg",
-    "pin":"true"
+    "pin":"false"
   },
   "project2": {
     "projectname": "Clone Airbnb",
