@@ -18,7 +18,7 @@
     "skill": ["html", "css"],
     "link": "recipe/recipe.html",
     "image":"image/recipe.jpg",
-    "pin":"true"
+    "pin":"false"
   },
   "project4": {
     "projectname": "Candidate Register Form",
@@ -46,6 +46,13 @@
     "skill": ["react", "tailwind"],
     "link": "https://becool-landing-page.netlify.app/",
     "image":"image/becool-landingpage.png",
+    "pin":"true"
+  },
+    "project8": {
+    "projectname": "Landing Page",
+    "skill": ["react", "tailwind","typescript"],
+    "link": "https://github.com/Natnicha24/fazwaz-clone",
+    "image":"image/fazwaz.jpg",
     "pin":"true"
   }
 
