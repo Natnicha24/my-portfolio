@@ -493,6 +493,16 @@ body {
     margin-right: 5px;
 }
 
+.nextjs{
+    background-color:  #0a6ad141;
+    width: fit-content;
+    padding: 2px 9px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #0a6ad1;
+    margin-right: 5px;
+}
+
 .skill-text{
     margin-top:2px;
 }

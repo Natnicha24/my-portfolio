@@ -1,62 +1,65 @@
 {
   "project1": {
-    "projectname": "Clone Twitter",
-    "skill": ["html", "css"],
-    "link": "clone-twitter/main.html",
-    "image":"image/twitter-clone.jpg",
-    "pin":"true"
+    "projectname": "Chic Car Rent - work project",
+    "skill": ["nextjs", "typescript"],
+    "link": "https://www.chiccarrent.com",
+    "image": "image/chic-car-rent.png",
+    "pin": "true"
   },
   "project2": {
-    "projectname": "Clone Airbnb",
-    "skill": ["html", "css"],
-    "link": "airbnb-clone/main.html",
-    "image":"image/airbnb-clone.jpg",
-    "pin":"true"
-  },
-  "project3": {
-    "projectname": "Recipe Website",
-    "skill": ["html", "css"],
-    "link": "recipe/recipe.html",
-    "image":"image/recipe.jpg",
-    "pin":"false"
-  },
-  "project4": {
-    "projectname": "Candidate Register Form",
-    "skill": ["html", "css"],
-    "link": "register/main.html",
-    "image":"image/candidate-register.jpg",
-    "pin":"false"
-  },
-  "project5": {
-    "projectname": "BMI Calculator",
-    "skill": ["html", "css","javascript"],
-    "link": "bmi/main.html",
-    "image":"image/bmi-calculator.jpg",
-    "pin":"true"
-  },
-  "project6": {
-    "projectname": "Kpop Information",
-    "skill": ["react", "typescript"],
-    "link": "https://kpop-information.vercel.app/",
-    "image":"image/kpop-information.jpg",
-    "pin":"true"
-  },
-  "project7": {
-    "projectname": "Landing Page",
+    "projectname": "Landing Page - own project",
     "skill": ["react", "tailwind"],
     "link": "https://becool-landing-page.netlify.app/",
-    "image":"image/becool-landingpage.png",
-    "pin":"true"
+    "image": "image/becool-landingpage.png",
+    "pin": "true"
   },
-    "project8": {
-    "projectname": "Fazwaz Clone",
-    "skill": ["react", "tailwind","typescript"],
+  "project3": {
+    "projectname": "Fazwaz Clone - own project",
+    "skill": ["react", "tailwind", "typescript"],
     "link": "https://github.com/Natnicha24/fazwaz-clone",
-    "image":"image/fazwaz.jpg",
-    "pin":"true"
+    "image": "image/fazwaz.jpg",
+    "pin": "true"
+  },
+  "project4": {
+    "projectname": "Clone Twitter- own project",
+    "skill": ["html", "css"],
+    "link": "clone-twitter/main.html",
+    "image": "image/twitter-clone.jpg",
+    "pin": "true"
+  },
+  "project5": {
+    "projectname": "Clone Airbnb - own project",
+    "skill": ["html", "css"],
+    "link": "airbnb-clone/main.html",
+    "image": "image/airbnb-clone.jpg",
+    "pin": "true"
+  },
+  "project6": {
+    "projectname": "Recipe Website - own project",
+    "skill": ["html", "css"],
+    "link": "recipe/recipe.html",
+    "image": "image/recipe.jpg",
+    "pin": "false"
+  },
+  "project7": {
+    "projectname": "Candidate Register Form - own project",
+    "skill": ["html", "css"],
+    "link": "register/main.html",
+    "image": "image/candidate-register.jpg",
+    "pin": "false"
+  },
+  "project8": {
+    "projectname": "BMI Calculator - own project",
+    "skill": ["html", "css", "javascript"],
+    "link": "bmi/main.html",
+    "image": "image/bmi-calculator.jpg",
+    "pin": "true"
+  },
+  "project9": {
+    "projectname": "Kpop Information - own project",
+    "skill": ["react", "typescript"],
+    "link": "https://kpop-information.vercel.app/",
+    "image": "image/kpop-information.jpg",
+    "pin": "false"
   }
-
- 
-
 }
-
